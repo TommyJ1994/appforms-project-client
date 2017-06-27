@@ -16,14 +16,13 @@
 
 <script type="text/template" id="draft-list-option">
 <div class="form-group">
-  <%= label%>
-  <%= inputHtml %>
+  REMOVED
 </div>
 </script>
 
 
 <script type="text/template" id="pending-list-options">
-<div class="btn btn-group col-xs-12"> 
+<div class="btn btn-group col-xs-12">
   <button class="btn btn-primary fh_appform_button_action submit-all col-xs-12">Upload Pending Submissions</button>
 </div>
 </script>
@@ -35,8 +34,8 @@
   </div>
 
   <div class="panel-body fh_appform_section_area" id="drafts-list-panel-<%= type %>-<%= formId%>">
-    <div class="list-group" id="drafts-list-group-<%= formId%>"> 
-      
+    <div class="list-group" id="drafts-list-group-<%= formId%>">
+
 
     </div>
   </div>
@@ -50,12 +49,12 @@
         <h3 class="panel-title text-center "><i id="fh_appform_submission-options-<%= type %>-body-icon" class="pull-right icon-chevron-sign-down" > </i>Options</h3>
       </div>
       <div class="panel-body" id="submission-options-<%= type %>">
-        
+
         <%= optionsHtml %>
-        
+
       </div>
     </div>
-<%}%> 
+<%}%>
 </script>
 <script type="text/template" id="draft-list-item">
   <div class="fh_appform_field_title text-center"><%= timestamp %>
@@ -63,7 +62,7 @@
     <div class="progress progress-striped active">
         <div class="progress-bar"  id="progress-<%= id%>" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
           <span class="sr-only">0% Complete</span>
-        </div>  
+        </div>
     </div>
   <%}%>
   <% if(buttons){ %>
@@ -76,7 +75,7 @@
 <% if(buttons){ %>
 <div class="btn-group btn-group-vertical col-xs-12">
   <%= buttons%>
-</div>  
+</div>
 <%}%>
 
 </script>
@@ -103,7 +102,7 @@
       <div class="modal-body center-block">
         <div class="progress">
           <div class="progress-bar bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-            
+
           </div>
         </div>
       </div>
